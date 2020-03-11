@@ -1,0 +1,16 @@
+server:
+  port: 8191
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/AslamSujah/Medi-Care-Config.git
+          # username: git username  It requires when we use private repository
+          # password: git password  It requires when we use private repository
+
+
+          # Previously we tell the path of github. Now we need to tell the directory path. Here i used the directory path as anything and ends with service as  directory name.
+          search-paths:
+            - "service-config/*service"

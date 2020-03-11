@@ -1,0 +1,7 @@
+
+# To check whether it is working type the url in postman/insomnia http://localhost:8191/service1/default
+service:
+  greeting: Hello from service 1
+  id: 14578
+
+

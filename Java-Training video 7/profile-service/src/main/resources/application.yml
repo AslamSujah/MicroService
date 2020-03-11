@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: profile       #The name: profile tells that which configuration file you need to get.
+                        #Here, we tell to get profile-prod.yml specifically with other profiles.
+                        #We tell that Active Profile = prod in Intellij ide configurations.
+
+
+  jpa:
+    hibernate:
+      ddl-auto: update
