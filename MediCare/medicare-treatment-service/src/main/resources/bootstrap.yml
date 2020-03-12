@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8191
+
+
+  #We can put the active profile either here or IDE's run/debug configuration.
+  profiles:
+    active: prod

@@ -1,6 +1,6 @@
 package com.sujah.medicare.patientservice.service;
 
-import com.sujah.medicare.common.model.Patient;
+import com.sujah.medicare.common.model.patient.Patient;
 import com.sujah.medicare.patientservice.repository.PatientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -32,7 +32,7 @@ public class PatientServiceImpl implements PatientService {
             return patient.get();
         }
         else {
-            return null;
+            return new Patient();
         }
 
     }

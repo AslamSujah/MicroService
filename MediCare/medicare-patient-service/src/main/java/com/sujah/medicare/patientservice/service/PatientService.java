@@ -1,9 +1,8 @@
 package com.sujah.medicare.patientservice.service;
 
-import com.sujah.medicare.common.model.Patient;
+import com.sujah.medicare.common.model.patient.Patient;
 
 import java.util.List;
-import java.util.Optional;
 
 public interface PatientService {
 

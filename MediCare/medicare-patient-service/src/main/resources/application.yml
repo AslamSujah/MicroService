@@ -1,6 +1,6 @@
 spring:
   application:
-    name: profile
+    name: patient
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update

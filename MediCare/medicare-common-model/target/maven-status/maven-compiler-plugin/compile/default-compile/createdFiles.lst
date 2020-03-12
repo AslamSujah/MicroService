@@ -1,4 +1,4 @@
-com/sujah/medicare/common/model/PatientRecord.class
-com/sujah/medicare/common/model/Medicine.class
-com/sujah/medicare/common/model/Doctor.class
-com/sujah/medicare/common/model/Patient.class
+com/sujah/medicare/common/model/doctor/Doctor.class
+com/sujah/medicare/common/model/patient/Patient.class
+com/sujah/medicare/common/model/medicine/Medicine.class
+com/sujah/medicare/common/model/treatment/Treatment.class

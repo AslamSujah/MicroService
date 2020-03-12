@@ -1,12 +1,11 @@
 package com.sujah.medicare.patientservice.controller;
 
-import com.sujah.medicare.common.model.Patient;
+import com.sujah.medicare.common.model.patient.Patient;
 import com.sujah.medicare.patientservice.service.PatientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping(value = "/services")
@@ -30,5 +29,4 @@ public class PatientController {
         return patientService.fetchById(patientId);
     }
 
-    
 }

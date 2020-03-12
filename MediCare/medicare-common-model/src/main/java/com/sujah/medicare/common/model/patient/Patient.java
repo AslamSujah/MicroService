@@ -1,22 +1,19 @@
-package com.sujah.medicare.common.model;
+package com.sujah.medicare.common.model.patient;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
-@Table(name = "tblDoctor")
-public class Doctor {
+@Table(name = "tblPatient")
+public class Patient {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
 
     String name;
+    String age;
     String gender;
     String contactNo;
-    String specialization;
 
     public int getId() {
         return id;
@@ -34,6 +31,14 @@ public class Doctor {
         this.name = name;
     }
 
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
+    }
+
     public String getGender() {
         return gender;
     }
@@ -48,13 +53,5 @@ public class Doctor {
 
     public void setContactNo(String contactNo) {
         this.contactNo = contactNo;
-    }
-
-    public String getSpecialization() {
-        return specialization;
-    }
-
-    public void setSpecialization(String specialization) {
-        this.specialization = specialization;
     }
 }

@@ -6,9 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="config-server" />
         <module name="Common-Model" />
         <module name="medicare-patient-service" />
+        <module name="medicare-medicine-service" />
+        <module name="medicare-doctor-service" />
+        <module name="medicare-treatment-service" />
+        <module name="config-server" />
         <module name="medicare-common-model" />
       </profile>
     </annotationProcessing>
@@ -16,7 +19,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config-server" options="-parameters" />
+      <module name="medicare-doctor-service" options="-parameters" />
+      <module name="medicare-medicine-service" options="-parameters" />
       <module name="medicare-patient-service" options="-parameters" />
+      <module name="medicare-treatment-service" options="-parameters" />
     </option>
   </component>
 </project>
