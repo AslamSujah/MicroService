@@ -1,9 +1,12 @@
 package com.sujah.medicare.common.model.patient;
 
+import lombok.Data;
+
 import javax.persistence.*;
 
 @Entity
 @Table(name = "tblPatient")
+@Data
 public class Patient {
 
     @Id
@@ -15,43 +18,4 @@ public class Patient {
     String gender;
     String contactNo;
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getAge() {
-        return age;
-    }
-
-    public void setAge(String age) {
-        this.age = age;
-    }
-
-    public String getGender() {
-        return gender;
-    }
-
-    public void setGender(String gender) {
-        this.gender = gender;
-    }
-
-    public String getContactNo() {
-        return contactNo;
-    }
-
-    public void setContactNo(String contactNo) {
-        this.contactNo = contactNo;
-    }
 }

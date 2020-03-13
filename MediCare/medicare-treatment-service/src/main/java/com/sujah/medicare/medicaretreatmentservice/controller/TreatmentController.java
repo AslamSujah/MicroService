@@ -1,6 +1,8 @@
 package com.sujah.medicare.medicaretreatmentservice.controller;
 
 import com.sujah.medicare.common.model.treatment.Treatment;
+import com.sujah.medicare.medicaretreatmentservice.model.Response;
+import com.sujah.medicare.medicaretreatmentservice.model.SimpleResponse;
 import com.sujah.medicare.medicaretreatmentservice.service.TreatmentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -25,9 +27,13 @@ public class TreatmentController {
     }
 
     @RequestMapping(value = "/treatment", method = RequestMethod.GET)
-    public Treatment fetchById(@RequestParam int treatmentId){
-        return treatmentService.fetchById(treatmentId);
+    public Response fetchById(@RequestParam int treatmentId, @RequestParam(required = false) String type){
+        if (type==null){
+            return new SimpleResponse(treatmentService.fetchById(treatmentId));
+        }
+        else {
+            return treatmentService.fetchDetailResponse(treatmentId);
+        }
     }
-
 
 }
