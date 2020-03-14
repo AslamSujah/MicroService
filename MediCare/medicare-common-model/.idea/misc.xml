@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/../medicare-doctor-service/pom.xml" />
         <option value="$PROJECT_DIR$/../medicare-medicine-service/pom.xml" />
         <option value="$PROJECT_DIR$/../medicare-treatment-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../medicare-discovery-service/pom.xml" />
       </list>
     </option>
   </component>
