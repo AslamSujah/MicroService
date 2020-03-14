@@ -31,8 +31,11 @@ public class TreatmentController {
         if (type==null){
             return new SimpleResponse(treatmentService.fetchById(treatmentId));
         }
-        else {
+        else if (type.equals("full")){
             return treatmentService.fetchDetailResponse(treatmentId);
+        }
+        else {
+            return null;
         }
     }
 

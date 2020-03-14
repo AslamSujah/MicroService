@@ -3,27 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="3bc3247c-a51f-4e1b-814e-7da4e07e8da7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sujah/medicare/common/model/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sujah/medicare/common/model/doctor/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sujah/medicare/common/model/Medicine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sujah/medicare/common/model/medicine/Medicine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sujah/medicare/common/model/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sujah/medicare/common/model/patient/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sujah/medicare/common/model/PatientRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sujah/medicare/common/model/treatment/Treatment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sujah/medicare/common/model/doctor/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sujah/medicare/common/model/doctor/Doctor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Medicare-Common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Medicare-Common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sujah/medicare/common/model/Doctor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sujah/medicare/common/model/Medicine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sujah/medicare/common/model/Patient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sujah/medicare/common/model/PatientRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../medicare-patient-service/src/main/java/com/sujah/medicare/patientservice/MedicarePatientServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../medicare-patient-service/src/main/java/com/sujah/medicare/patientservice/MedicarePatientServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../medicare-patient-service/src/main/java/com/sujah/medicare/patientservice/controller/PatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../medicare-patient-service/src/main/java/com/sujah/medicare/patientservice/controller/PatientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../medicare-patient-service/src/main/java/com/sujah/medicare/patientservice/repository/PatientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../medicare-patient-service/src/main/java/com/sujah/medicare/patientservice/repository/PatientRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../medicare-patient-service/src/main/java/com/sujah/medicare/patientservice/service/PatientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../medicare-patient-service/src/main/java/com/sujah/medicare/patientservice/service/PatientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../medicare-patient-service/src/main/java/com/sujah/medicare/patientservice/service/PatientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../medicare-patient-service/src/main/java/com/sujah/medicare/patientservice/service/PatientServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../medicare-patient-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../medicare-patient-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../medicare-treatment-service/src/main/java/com/sujah/medicare/medicaretreatmentservice/controller/TreatmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../medicare-treatment-service/src/main/java/com/sujah/medicare/medicaretreatmentservice/controller/TreatmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../medicare-treatment-service/src/main/java/com/sujah/medicare/medicaretreatmentservice/service/TreatmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../medicare-treatment-service/src/main/java/com/sujah/medicare/medicaretreatmentservice/service/TreatmentServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,49 +57,81 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MedicareMedicineServiceApplication">
-    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+  <component name="RunManager" selected="Application.MedicareTreatmentServiceApplication">
+    <configuration name="ConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sujah.medicare.configserver.ConfigServerApplication" />
       <module name="config-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sujah.medicare.configserver.ConfigServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sujah.medicare.configserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MedicareDoctorServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="MedicareDoctorServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sujah.medicare.medicaredoctorservice.MedicareDoctorServiceApplication" />
       <module name="medicare-doctor-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sujah.medicare.medicaredoctorservice.MedicareDoctorServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sujah.medicare.medicaredoctorservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MedicareMedicineServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="MedicareMedicineServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sujah.medicare.medicaremedicineservice.MedicareMedicineServiceApplication" />
       <module name="medicare-medicine-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sujah.medicare.medicaremedicineservice.MedicareMedicineServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sujah.medicare.medicaremedicineservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MedicarePatientServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="MedicarePatientServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sujah.medicare.patientservice.MedicarePatientServiceApplication" />
       <module name="medicare-patient-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sujah.medicare.patientservice.MedicarePatientServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sujah.medicare.patientservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MedicareTreatmentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="MedicareTreatmentServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sujah.medicare.medicaretreatmentservice.MedicareTreatmentServiceApplication" />
       <module name="medicare-treatment-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sujah.medicare.medicaretreatmentservice.MedicareTreatmentServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sujah.medicare.medicaretreatmentservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Spring Boot.ConfigServerApplication" />
-      <item itemvalue="Spring Boot.MedicareDoctorServiceApplication" />
-      <item itemvalue="Spring Boot.MedicareMedicineServiceApplication" />
-      <item itemvalue="Spring Boot.MedicarePatientServiceApplication" />
-      <item itemvalue="Spring Boot.MedicareTreatmentServiceApplication" />
-    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MedicareTreatmentServiceApplication" />
+        <item itemvalue="Application.MedicareMedicineServiceApplication" />
+        <item itemvalue="Application.MedicareDoctorServiceApplication" />
+        <item itemvalue="Application.MedicarePatientServiceApplication" />
+        <item itemvalue="Application.ConfigServerApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -135,16 +154,16 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="462" y="82" key="#MedicarePatientServiceApplication/0.0.1536.824@0.0.1536.824" timestamp="1583895862604" />
-    <state x="288" y="36" width="800" height="684" key="#Project_Structure" timestamp="1584035907002">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="313" y="59" width="800" height="684" key="#Project_Structure" timestamp="1584072122865">
+      <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="288" y="36" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1584035907002" />
-    <state x="313" y="59" width="800" height="684" key="#Project_Structure/70.27.1296.741@70.27.1296.741" timestamp="1583911214524" />
-    <state x="280" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584036948005">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="313" y="59" width="800" height="684" key="#Project_Structure/70.27.1296.741@70.27.1296.741" timestamp="1584072122865" />
+    <state x="176" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584073196963">
+      <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="280" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1584036948005" />
-    <state x="176" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1296.741@70.27.1296.741" timestamp="1583911647167" />
+    <state x="176" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1296.741@70.27.1296.741" timestamp="1584073196963" />
     <state x="501" y="105" width="424" height="591" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1583840630936">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
@@ -175,26 +194,26 @@
     </state>
     <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583896077884" />
     <state x="533" y="181" width="424" height="491" key="FileChooserDialogImpl/70.27.1296.741@70.27.1296.741" timestamp="1584013990271" />
-    <state width="1493" height="206" key="GridCell.Tab.0.bottom" timestamp="1584068364479">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1250" height="184" key="GridCell.Tab.0.bottom" timestamp="1584075950574">
+      <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584068364479" />
-    <state width="1250" height="152" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1584016984727" />
-    <state width="1493" height="206" key="GridCell.Tab.0.center" timestamp="1584068364479">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1250" height="184" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1584075950574" />
+    <state width="1250" height="184" key="GridCell.Tab.0.center" timestamp="1584075950574">
+      <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584068364479" />
-    <state width="1250" height="152" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1584016984727" />
-    <state width="1493" height="206" key="GridCell.Tab.0.left" timestamp="1584068364479">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1250" height="184" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1584075950574" />
+    <state width="1250" height="184" key="GridCell.Tab.0.left" timestamp="1584075950573">
+      <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584068364479" />
-    <state width="1250" height="152" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1584016984727" />
-    <state width="1493" height="206" key="GridCell.Tab.0.right" timestamp="1584068364479">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1250" height="184" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1584075950573" />
+    <state width="1250" height="184" key="GridCell.Tab.0.right" timestamp="1584075950574">
+      <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584068364479" />
-    <state width="1250" height="152" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1584016984727" />
+    <state width="1250" height="184" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1584075950574" />
     <state width="1493" height="206" key="GridCell.Tab.1.bottom" timestamp="1584068364474">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -235,15 +254,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="71" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1584061249847" />
-    <state x="201" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1583992065778">
+    <state x="205" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1584072733305">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="201" y="27" width="1024" height="741" key="SettingsEditor/70.27.1296.741@70.27.1296.741" timestamp="1583992065778" />
-    <state x="374" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1583983401243">
+    <state x="205" y="27" width="1024" height="741" key="SettingsEditor/70.27.1296.741@70.27.1296.741" timestamp="1584072733305" />
+    <state x="374" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1584072745988">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="360" y="220" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583849378366" />
-    <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741@70.27.1296.741" timestamp="1583983401243" />
+    <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741@70.27.1296.741" timestamp="1584072745988" />
     <state x="70" y="53" width="1286" height="715" key="new project wizard" timestamp="1583990366310">
       <screen x="70" y="27" width="1296" height="741" />
     </state>

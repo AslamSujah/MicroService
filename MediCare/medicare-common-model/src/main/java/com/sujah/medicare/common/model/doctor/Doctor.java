@@ -5,7 +5,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "tblDoctor")
-@Data                               //The @Data annotation from lombok package. If we use it, we don't need to create getter and setters manually.
+@Data       //The @Data annotation from lombok package. If we use it, we don't need to create getter and setter methods manually. But, You must need to install Lombok plug-in to your IDE. otherwise it will not gives getters and setters methods.
 public class Doctor {
 
     @Id

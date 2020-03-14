@@ -54,9 +54,10 @@ public class TreatmentServiceImpl implements TreatmentService {
     @Override
     public DetailResponse fetchDetailResponse(int treatmentId) {
         Treatment treatment = fetchById(treatmentId);
-        Patient patient = getPatientFromOtherService();
-        Doctor doctor = getDoctorFromOtherService();
-        Medicine medicine =getMedicineFromOtherService();
+
+        Patient patient = getPatientFromOtherService(treatment.getPatientId());
+        Doctor doctor = getDoctorFromOtherService(treatment.getDoctorId());
+        Medicine medicine =getMedicineFromOtherService(treatment.getMedicineId());
 
         return new DetailResponse(treatment, patient, doctor,medicine);
     }
