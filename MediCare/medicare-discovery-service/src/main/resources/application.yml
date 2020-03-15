@@ -5,5 +5,11 @@ eureka:
   datacenter: Colombo-SriLanka
   environment: production
 
+  #Update the stopped service instances in the eureka server.
+  server:
+    eviction-interval-timer-in-ms: 3000
+
+
 server:
   port: 8761
+

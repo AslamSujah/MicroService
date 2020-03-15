@@ -1,0 +1,4 @@
+com\sujah\medicare\common\model\treatment\Treatment.class
+com\sujah\medicare\common\model\doctor\Doctor.class
+com\sujah\medicare\common\model\patient\Patient.class
+com\sujah\medicare\common\model\medicine\Medicine.class
