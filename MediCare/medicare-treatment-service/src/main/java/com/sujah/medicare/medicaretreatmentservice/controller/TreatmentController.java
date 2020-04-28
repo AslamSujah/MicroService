@@ -11,6 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "/services")
+@CrossOrigin("http://localhost:4200")
 public class TreatmentController {
 
     @Autowired

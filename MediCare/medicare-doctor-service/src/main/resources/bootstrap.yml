@@ -3,7 +3,28 @@ spring:
     config:
       uri: http://localhost:8191
 
-
   #We can put the active profile either here or IDE's run/debug configuration.
   profiles:
     active: prod
+
+  # While application running itself reads the application.yml file and get the application name.But,
+  # Before run the application we need to tell the application name to eureka server. That is why we can put the application name in bootstrap.yml file.
+  application:
+    name: doctor
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+
+  instance:
+    instance-id: ${spring.application.name}-${random.int}
+    hostname: localhost     # You can set localhost or any specific ip address for host the service.
+
+    lease-renewal-interval-in-seconds: 1
+    lease-expiration-duration-in-seconds: 3
+
+# You must want to comment below port if you already input the port in your github configuration file and you need to run only one instance of the particular service.
+# But the below code is important(Specially, we need to set the port into zero and they get random port which are freely available) while we are running multiple instances of a particular service.
+server:
+  port: 0
