@@ -1,0 +1,77 @@
+<div class="mt-4 col-8 offset-2">
+  <div class="card jumbotron">
+    <div class="col-sm-12 font-weight-bold">Signup Form</div>
+
+    <div class="card-body">
+
+      <form #signupform = "ngForm" >
+
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-3 col-form-label text-black">User Name</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" name="username" id="inputName" placeholder="User Name" required>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-3 col-form-label text-black">Age</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" name="age" id="inputAge" placeholder="Age" required>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-3 col-form-label text-black">Gender</label>&nbsp;&nbsp;&nbsp;
+          <label class="radio-inline"><input type="radio" id="male" name="gender" value="male" ></label>
+          <label for="male" class="col-sm-2 col-form-label text-black">Male</label>
+          <label class="radio-inline"><input type="radio" id="female" name="gender" value="female" ></label>
+          <label for="female" class="col-sm-2 col-form-label text-black">Female</label>
+        </div>
+
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-3 col-form-label text-black">Email</label>
+          <div class="col-sm-9">
+            <input type="email" class="form-control" name="email" id="inputEmail" placeholder="Email" required>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-3 col-form-label text-black">Telephone</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" name="telephone" id="inputTelephone" placeholder="Telephone" required>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-3 col-form-label text-black">Address</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" name="address" id="inputAddress" placeholder="Address" required>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="inputPassword3" class="col-sm-3 col-form-label text-black">Password</label>
+          <div class="col-sm-9">
+            <input type="password" class="form-control" name="password" id="inputPassword" placeholder="Password" required >
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <div class="col-sm-9 offset-3" >
+            <button type="submit" class="btn btn-primary" [disabled] = "signupform.invalid" >Sign up</button>
+
+            <a routerLink = "/login" type="button" class="btn btn-primary float-right"  >Sign in</a>
+          </div>
+        </div>
+      </form>
+
+
+
+    </div>
+
+
+  </div>
+
+
+</div>
+

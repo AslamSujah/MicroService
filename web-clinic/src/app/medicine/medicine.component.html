@@ -1,0 +1,42 @@
+<div class="container">
+  <form name="form" style="margin-top: 20px" #f="ngForm" (ngSubmit)="f.form.valid && sendMedicine()">
+    <h2 style="text-align: center">Add Medicine Record</h2>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputMName">Medicine Name</label>
+        <input type="text" class="form-control" id="inputMName" name="Mname" placeholder="Medicine Name" required>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputQuantity">Quantity</label>
+        <input type="text" class="form-control" id="inputQuantity" name="quantity" placeholder="Quantity">
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputCompanyName">Company Name</label>
+        <input type="text" class="form-control" id="inputCompanyName" name="inputCompanyName" placeholder="Company Name" required>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputExpiryDate">Expiry Date</label>
+        <input type="date" class="form-control" id="inputExpiryDate" name="date" placeholder="Expiry Date">
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group col-md-12 text-right">
+        <button type="submit" class="btn btn-primary">Save</button>
+      </div>
+    </div>
+
+  </form>
+</div>
+
+
+<div class="form-row">
+  <div class="form-group col-md-12">
+    <button disabled class="btn btn-primary btn-block">Medicine Records</button>
+    <p></p>
+    <!--Need to add selector for retrieve all the doctor details-->
+  </div>
+</div>
